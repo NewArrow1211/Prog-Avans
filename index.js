@@ -1,59 +1,81 @@
 const movies = [
     {
-        name: "Terminator",
-        description: `
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Nemo dicta in itaque explicabo rerum labore laborum doloribus voluptatum, 
-            sit tempora ullam aspernatur ex est incidunt officia iure? Reprehenderit, ad et!
-        `,
-        imageUrl: "https://images.unsplash.com/photo-1572188863110-46d457c9234d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        index: 8,
+        name: "Iron Man 1",
+        Year: "2008", 
+        imageUrl: "https://www.denofgeek.com/wp-content/uploads/2019/02/mcu-1-iron-man.jpg?fit=1200%2C675"
     },
+
     {
-        name: "Terminator",
-        description: `
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Nemo dicta in itaque explicabo rerum labore laborum doloribus voluptatum, 
-            sit tempora ullam aspernatur ex est incidunt officia iure? Reprehenderit, ad et!
-        `,
-        imageUrl: "https://images.unsplash.com/photo-1572188863110-46d457c9234d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        index: 2,
+        name: "Iron Man 2",
+        Year: "2010", 
+        imageUrl: "https://static.wikia.nocookie.net/ironman/images/d/df/P3546118_v_v8_af.jpg/revision/latest/top-crop/width/360/height/450?cb=20191202171556"
     },
+
     {
-        name: "Terminator",
-        description: `
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Nemo dicta in itaque explicabo rerum labore laborum doloribus voluptatum, 
-            sit tempora ullam aspernatur ex est incidunt officia iure? Reprehenderit, ad et!
-        `,
-        imageUrl: "https://images.unsplash.com/photo-1572188863110-46d457c9234d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        index: 3,
+        name: "Iron Man 3",
+        Year: "2013", 
+        imageUrl: "https://static.wikia.nocookie.net/ironman/images/1/11/P9259486_v_v8_aw.jpg/revision/latest/top-crop/width/360/height/450?cb=20191202172007"
     },
+
     {
-        name: "Terminator",
-        description: `
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Nemo dicta in itaque explicabo rerum labore laborum doloribus voluptatum, 
-            sit tempora ullam aspernatur ex est incidunt officia iure? Reprehenderit, ad et!
-        `,
-        imageUrl: "https://images.unsplash.com/photo-1572188863110-46d457c9234d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        index: 4,
+        name: "Captain America: The First Avenger",
+        Year: "2011", 
+        imageUrl: "https://i.pinimg.com/originals/d3/06/ba/d306ba59abe377ae093d6506dfdc07af.jpg"
     },
+
     {
-        name: "Terminator",
-        description: `
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Nemo dicta in itaque explicabo rerum labore laborum doloribus voluptatum, 
-            sit tempora ullam aspernatur ex est incidunt officia iure? Reprehenderit, ad et!
-        `,
-        imageUrl: "https://images.unsplash.com/photo-1572188863110-46d457c9234d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        index: 5,        
+        name: "Captain America: The Winter Soldier",
+        Year: "2014", 
+        imageUrl: "https://townsquare.media/site/442/files/2013/12/captain-america-2-empire-cover-photo-lead.jpg?w=980&q=75"
     },
+
     {
-        name: "Terminator",
-        description: `
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Nemo dicta in itaque explicabo rerum labore laborum doloribus voluptatum, 
-            sit tempora ullam aspernatur ex est incidunt officia iure? Reprehenderit, ad et!
-        `,
-        imageUrl: "https://images.unsplash.com/photo-1572188863110-46d457c9234d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        index: 6,
+        name: "Captain America: Civil War",
+        Year: "2016", 
+        imageUrl: "https://www.denofgeek.com/wp-content/uploads/2018/05/civilwar_1.jpg?resize=768%2C432"
     },
+
+    {
+        index: 7,
+        name: "Avengers",
+        Year: "2012", 
+        imageUrl: "https://i.ytimg.com/vi/48fKIXlxaXk/maxresdefault.jpg"
+    },
+
+    {
+        index: 1,
+        name: "Avengers: Age of Ultron",
+        Year: "2015", 
+        imageUrl: "http://www.businesskorea.co.kr/news/photo/201403/2642_3877_0.jpg"
+    },
+
+    {
+        index: 9,
+        name: "Avengers: Infinity War",
+        Year: "2018", 
+        imageUrl: "https://cdn.arstechnica.net/wp-content/uploads/2018/04/aveng-infinwar-logo-800x417.jpg"
+    },
+
+    {
+        index: 10,
+        name: "Avengers: Endgame",
+        Year: "2019", 
+        imageUrl: "https://wegotthiscovered.com/wp-content/uploads/2018/11/Marvel-Avengers-4-title-1.jpg"
+    },
+
 ]
+
+movies.sort(function(a, b){
+    var a1= a.Year, b1= b.Year;
+    if(a1== b1) return 0;
+    return a1> b1? 1: -1;
+});
 
 movies.forEach((movie) => {
     const template = `  <div class="col-md-8 my-3">
@@ -61,7 +83,7 @@ movies.forEach((movie) => {
                                 <img src=${movie.imageUrl} class="card-img-top" alt="${movie.name}">
                                 <div class="card-body">
                                     <h5 class="card-title">${movie.name}</h5>
-                                    <p class="card-text">${movie.description}</p>
+                                    <p class="card-text">${movie.Year}</p>
                                 </div>
                             </div>
                         </div>`;
